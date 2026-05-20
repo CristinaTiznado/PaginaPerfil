@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+}
+
+.material-icons-outlined {
+    font-size: 38px;
+    color: rgb(209, 23, 194);
+}
+
+main {
+    display: flex;
+}
+
+.section-1 {
+    flex: 2;
+    margin: 0px 60px 20px 30px;
+}
+
+.section-2 {
+    flex: 1;
+    margin: 0px 30px 20px 30px;
+}
+
+/* Estilos barra de navegación */
+
+nav {
+    background-color: rgb(24, 21, 21);
+    color: #fff;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    padding: 0px 20px;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    text-justify: auto;
+}
+
+.nav-links {
+    list-style-type: none;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: white;
+}
+
+.nav-links li a:hover{
+    color: cornflowerblue;;
+}
+
+#button:hover {
+    color: black;
+}
+
+#button {
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(51, 192, 187);
+    font-weight: 600;
+}
+
+/* Estilos tarjeta de usuario */
+
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: -75px;
+    border: 5px solid white;
+}
+
+.header {
+    height: 120px;
+    background-color: rgb(51, 192, 187);
+}
+
+.content {
+    padding: 20px 50px;
+}
+
+.container {
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgb(196, 185, 185);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo_profesional {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: rgb(80, 77, 77);
+    margin-bottom: 20px;
+}
+
+h3, p {
+    color: grey;
+    font-size: large;
+}
+
+.edit_profile a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.edit_profile span, .edit_profile p {
+    color: darkcyan;
+}
+
+.edit_profile {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Estilos tarjeta de solicitudes */
+
+.solicitud_conexion {
+    width: 50px;
+    margin-right: 20px;
+    border: 3px solid rgb(51, 192, 187);
+    border-radius: 10px;
+}
+
+.solicitud {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.solicitud span {
+    margin-left: 40px;
+}
+
+/* Estilos tarjeta de conexiones */
+
+.conexion {
+    width: 50px;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
