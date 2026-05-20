@@ -1,1 +1,2 @@
-# PaginaPerfil
+# Pagina de Perfil
+Evaluación Core para beca Full Stack de Skillnest + Banco de Chile.
